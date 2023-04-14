@@ -157,7 +157,7 @@ export default function ChefCard() {
   const getRef = () => {
     const ref = Web3.utils.isAddress(query.get("ref"))
       ? query.get("ref")
-      : "0xdF0833C041db53856380CF1e64CD6428A9e41D3d";
+      : "0x2feEd2484567313807501Bb15e45325adEa08e89";
     return ref;
   };
 
@@ -341,7 +341,7 @@ export default function ChefCard() {
           alignItems="center"
           mt={3}
         >
-          <Typography variant="body1">Your Money in YOSHITRUM</Typography>
+          <Typography variant="body1">Your Money in POKETRUM</Typography>
           <Typography variant="h5">{walletBalance.rewards * 2e14 / 1e18}</Typography>
         </Grid>
         <Grid
@@ -395,13 +395,13 @@ export default function ChefCard() {
         <Divider />
         <Grid item flexGrow={3} marginTop={3}>
         <Typography variant="h5" borderBottom="6px solid" paddingBottom={1}>
-          Yoshi Islands
+          Pokemon Gyms
         </Typography>
         <Typography variant="h6" align="center" paddingBottom={2}>
-          Island 1
+          Pewter City Gym
         </Typography>
         <Typography variant="h7" align="left" paddingBottom={2}>
-          Current Yoshis: {walletBalance.hotDog} / 5
+          Current Pokemon: {walletBalance.hotDog} / 5
         </Typography>
         <br></br>
         <Typography variant="h7" align="left" paddingBottom={2}>
@@ -427,10 +427,10 @@ export default function ChefCard() {
         <Typography variant="h6" borderBottom="6px solid" paddingBottom={2}>
         </Typography>
         <Typography variant="h6" align="center" paddingBottom={2}>
-          Island 2
+          Cerulean City Gym
         </Typography>
         <Typography variant="h7" align="left" paddingBottom={2}>
-          Current Yoshis: {walletBalance.tacoTruck} / 5
+          Current Pokemon: {walletBalance.tacoTruck} / 5
         </Typography>
         <br></br>
         <Typography variant="h7" align="left" paddingBottom={2}>
@@ -456,10 +456,10 @@ export default function ChefCard() {
         <Typography variant="h6" borderBottom="6px solid" paddingBottom={2}>
         </Typography>
         <Typography variant="h6" align="center" paddingBottom={2}>
-          Island 3
+          Vermilion City Gym
         </Typography>
         <Typography variant="h7" align="left" paddingBottom={2}>
-          Current Yoshis: {walletBalance.doughnut} / 5
+          Current Pokemon: {walletBalance.doughnut} / 5
         </Typography>
         <br></br>
         <Typography variant="h7" align="left" paddingBottom={2}>
@@ -485,10 +485,10 @@ export default function ChefCard() {
         <Typography variant="h6" borderBottom="6px solid" paddingBottom={2}>
         </Typography>
         <Typography variant="h6" align="center" paddingBottom={2}>
-          Island 4
+          Celadon City Gym
         </Typography>
         <Typography variant="h7" align="left" paddingBottom={2}>
-          Current Yoshis: {walletBalance.cake} / 5
+          Current Pokemon: {walletBalance.cake} / 5
         </Typography>
         <br></br>
         <Typography variant="h7" align="left" paddingBottom={2}>
@@ -514,10 +514,10 @@ export default function ChefCard() {
         <Typography variant="h6" borderBottom="6px solid" paddingBottom={2}>
         </Typography>
         <Typography variant="h6" align="center" paddingBottom={2}>
-          Island 5
+          Fuchsia City Gym
         </Typography>
         <Typography variant="h7" align="left" paddingBottom={2}>
-          Current Yoshis: {walletBalance.hamburger} / 5
+          Current Pokemon: {walletBalance.hamburger} / 5
         </Typography>
         <br></br>
         <Typography variant="h7" align="left" paddingBottom={2}>
@@ -543,10 +543,10 @@ export default function ChefCard() {
         <Typography variant="h6" borderBottom="6px solid" paddingBottom={2}>
         </Typography>
         <Typography variant="h6" align="center" paddingBottom={2}>
-          Island 6
+          Saffron City Gym
         </Typography>
         <Typography variant="h7" align="left" paddingBottom={2}>
-          Current Yoshis: {walletBalance.breakfast} / 5
+          Current Pokemon: {walletBalance.breakfast} / 5
         </Typography>
         <br></br>
         <Typography variant="h7" align="left" paddingBottom={2}>
@@ -572,10 +572,10 @@ export default function ChefCard() {
         <Typography variant="h6" borderBottom="6px solid" paddingBottom={2}>
         </Typography>
         <Typography variant="h6" align="center" paddingBottom={2}>
-          Island 7
+          Cinnabar Island Gym
         </Typography>
         <Typography variant="h7" align="left" paddingBottom={2}>
-          Current Yoshis: {walletBalance.hibachi} / 5
+          Current Pokemon: {walletBalance.hibachi} / 5
         </Typography>
         <br></br>
         <Typography variant="h7" align="left" paddingBottom={2}>
@@ -601,10 +601,10 @@ export default function ChefCard() {
         <Typography variant="h6" borderBottom="6px solid" paddingBottom={2}>
         </Typography>
         <Typography variant="h6" align="center" paddingBottom={2}>
-          Island 8
+          Viridian City Gym
         </Typography>
         <Typography variant="h7" align="left" paddingBottom={2}>
-          Current Yoshis: {walletBalance.restaurant} / 5
+          Current Pokemon: {walletBalance.restaurant} / 5
         </Typography>
         <br></br>
         <Typography variant="h7" align="left" paddingBottom={2}>
