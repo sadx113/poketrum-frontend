@@ -286,7 +286,7 @@ export default function BakeCard() {
               disabled={wrongNetwork || !address || +bakeBUSD === 0 || loading || +walletBalance.approved === 0}
               onClick={bake}
             >
-              BuyCoins
+              Buy Coins
             </Button>
           </Box>
         </Box>
