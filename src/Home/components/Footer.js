@@ -13,7 +13,7 @@ export default function Footer() {
         </a>
       </Grid>
       <Grid item>
-        <a href="https://t.me/yoshitrum" target="__blank">
+        <a href="https://t.me/poketrum" target="__blank">
           <img src={tgIcon} alt="" width={48} height={48} />
         </a>
       </Grid>
