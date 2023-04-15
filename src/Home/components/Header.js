@@ -40,10 +40,10 @@ export default function Header() {
             fullWidth
             onClick={(e) => {
               e.preventDefault();
-              window.location.href='https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x43FAbC45Cb99BDd33b1e74F534009D45a062EdFF&chainId=42161';
+              window.location.href='https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0xe0381c654aee02ada4e4b150efed0c31d592d6ce&chainId=42161';
               }}
               >
-                  BUY YOSHITRUM
+                  BUY POKETRUM
             </Button>
         </Grid>
         <Grid item flexGrow={1} marginRight={1} marginTop={3} alignItems="center">
@@ -53,7 +53,7 @@ export default function Header() {
             fullWidth
             onClick={(e) => {
               e.preventDefault();
-              window.location.href='https://telegra.ph/Yoshitrum-02-20';
+              window.location.href='https://telegra.ph/Poketrum-04-09';
               }}
               >
                   LitePaper
