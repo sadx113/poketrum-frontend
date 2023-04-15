@@ -31,7 +31,7 @@ export default function NutritionFacts() {
     <CardWrapper>
       <CardContent>
         <Typography variant="h5" borderBottom="6px solid" paddingBottom={1}>
-          Buy Taco Truck
+          Buy Poketrum
         </Typography>
       </CardContent>
     </CardWrapper>
