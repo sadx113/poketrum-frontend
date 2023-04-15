@@ -16,7 +16,7 @@ export default function HowtoPlay() {
     <CardWrapper>
       <CardContent>
         <Typography variant="h5" borderBottom="6px solid" paddingBottom={1}>
-          Yoshitrum
+          Poketrum
         </Typography>
         <Box paddingTop={2}>
           <Typography>
