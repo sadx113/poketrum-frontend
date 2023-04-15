@@ -212,7 +212,7 @@ export default function BakeCard() {
           alignItems="center"
           mt={3}
         >
-          <Typography variant="body1">Total Yoshis</Typography>
+          <Typography variant="body1">Total Pokemon</Typography>
           <Typography variant="h5">{walletBalance.users}</Typography>
         </Grid>
       <Grid
@@ -221,7 +221,7 @@ export default function BakeCard() {
           alignItems="center"
           mt={3}
         >
-          <Typography variant="body1">Total Islands</Typography>
+          <Typography variant="body1">Total Gyms</Typography>
           <Typography variant="h5">{walletBalance.owners}</Typography>
         </Grid>
         <Grid
@@ -231,7 +231,7 @@ export default function BakeCard() {
           mt={3}
         >
           <Typography variant="body1">Contract</Typography>
-          <Typography variant="h5">{contractBUSD} YOSHI</Typography>
+          <Typography variant="h5">{contractBUSD} POKEMON</Typography>
         </Grid>
         <Grid
           container
@@ -240,7 +240,7 @@ export default function BakeCard() {
           mt={3}
         >
           <Typography variant="body1">Wallet</Typography>
-          <Typography variant="h5">{walletBalance.busd} YOSHI</Typography>
+          <Typography variant="h5">{walletBalance.busd} POKEMON</Typography>
         </Grid>
         <Grid
           container
